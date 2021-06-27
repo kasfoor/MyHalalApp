@@ -17,7 +17,7 @@ export default function Login() {
 
     return (
         <View style={styles.container}>
-
+            <Image style={styles.image} source={require('../assets/log2.png')} />
             <StatusBar style="auto" />
             <View style={styles.inputView}>
                 <TextInput
@@ -45,6 +45,7 @@ export default function Login() {
             </TouchableOpacity>
 
             <Text></Text>
+            <Text></Text>
 
             <TouchableOpacity>
                 <Text style={styles.forgot_button}>Forgot your password?</Text>
@@ -70,12 +71,6 @@ const styles = StyleSheet.create({
         color: "#FFFFFF",
     },
 
-    //Displaying incorrect color #000000
-    //Should be displayed in the same green to match the background color of loginBtn
-    forgot_button: {
-        color: "#5DB075",
-    },
-
     inputView: {
         backgroundColor: "#FFFFFF",
         borderRadius: 30,
@@ -96,6 +91,7 @@ const styles = StyleSheet.create({
     forgot_button: {
         height: 30,
         marginBottom: 30,
+        color: "#5DB075"
     },
 
     loginBtn: {

@@ -12,7 +12,7 @@ import {
 export default function Map(){
     return(
         <View>
-            <Button>Rewards</Button>
+
             <Text>Map</Text>
         </View>
     );
